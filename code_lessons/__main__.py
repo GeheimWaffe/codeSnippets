@@ -17,7 +17,7 @@ def main_function():
 def main(args=None):
     """ The main routine """
     main_function()
-
+    print('this is my program')
     # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 if __name__ == '__main__':

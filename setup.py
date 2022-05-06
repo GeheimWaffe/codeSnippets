@@ -1,10 +1,10 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import os
 
 setup(
     name='codeSnippets',
-    version='1.0.3',
-    packages=['code_lessons'],
+    version='1.0.6',
+    packages=find_packages(),
     url='mailto:vince1133@yahoo.fr',
     license='BSD',
     author='Vincent Scherrer',
